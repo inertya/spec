@@ -6,6 +6,7 @@ This repository houses the specification for the inertya protocol, available
 rendered at (TODO). The specification exists as a 
 set of markdown files, in the [`src`](src) directory.
 
+
 ## WIP
 
 this project is a work in progress and something that i've had the idea for 
@@ -13,6 +14,13 @@ for almost 2 years. i'm currently trying to write a minimum viable
 specification, and then implement it in rust. feel free to have a look 
 around, but i'm not exactly accepting contributions right now (when its done 
 and i get settled i will).
+
+
+## Markdown
+
+The following markdown extensions are used:
+- def list (html dl/dt/dd tags)
+- tables
 
 
 ## License

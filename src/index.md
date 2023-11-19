@@ -1,3 +1,8 @@
+---
+nav:
+  - common
+---
+
 # Inertya Protocol Specification
 
 Welcome! This is the specification for **inertya**, a modular and 
