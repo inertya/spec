@@ -1,6 +1,6 @@
 ---
 nav:
-  - common
+  - common/
 ---
 
 # Inertya Protocol Specification

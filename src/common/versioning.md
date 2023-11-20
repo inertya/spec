@@ -6,7 +6,7 @@ Every protocol version is *fully incompatible* with every other protocol
 version.
 
 The protocol is versioned with a single number, the protocol version number.
-This number is an unsigned 32-bit integer.
+This number is an unsigned 32-bit/4-byte integer.
 
 ### Terminology
 
@@ -31,3 +31,10 @@ pvTEST
 
 `0xFFFFFFFF` (pvTEST)
 : Used for testing, snapshots, and drafts. Not stable.
+
+
+### PV Ranges
+
+eg. pv1-3
+
+TODO
