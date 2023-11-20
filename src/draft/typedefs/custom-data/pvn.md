@@ -11,6 +11,6 @@ The `inertya:pvn` [custom data type] is a [protocol version number].
 See [Common/Versioning#codec](../../../common/versioning.md#codec)
 
 ### Errors { #codec-errors }
-- PVN == `0x00000000` ([reserved] for querys)
+- PVN == `0x00000000` ([reserved] for queries)
 
 [reserved]: ../../../common/versioning.md#special-pvns
