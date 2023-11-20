@@ -1,4 +1,5 @@
-# `inertya:chat` &nbsp; <small>(Bi-Directional)</small>
+# `inertya:chat`
+> Direction: Bi-Directional
 
 Sent by the client when the user sends a message in the [chat], and by the server to display a meessage in the client's chat.
 

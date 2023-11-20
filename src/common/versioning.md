@@ -17,7 +17,7 @@ PVN
 : Protocol Version Number
 
 pv{x}
-: Protocol Version {x}.  
+: Protocol Version {x}.\
   eg. `pv12` is protocol version 12.
 
 pvTEST
