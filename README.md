@@ -20,6 +20,10 @@ and i get settled i will).
 
 The following markdown extensions are used:
 - def list (html dl/dt/dd tags)
+- heading attributes (custom id/class)
+- caret superscript (`^sup^`)
+- tilde subscript (`~sub~`)
+- strikethrough (`~~del~~`)
 - tables
 
 
@@ -27,4 +31,4 @@ The following markdown extensions are used:
 
 This repository and all specifications are licensed under 
 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 
-The full license text is available in the [LICENSE](LICENSE) file.
+The full license text is included in the [LICENSE](LICENSE) file.

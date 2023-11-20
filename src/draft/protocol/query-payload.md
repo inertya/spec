@@ -6,7 +6,7 @@ The query payload is a [JSON] object.
 
 If the type ends with a question mark `?`, the field is optional and may be missing or null.
 
-[queries]: ../../protocol/queries.md
+[queries]: ../../common/querying.md
 [JSON]: https://www.json.org/json-en.html
 
 #### Root
@@ -62,7 +62,7 @@ The name and MOTD should generally be kept together, and the MOTD should general
 The server's name and motd should be directly displayed on a server list, while the description can be relegated to either a server page or a hover.
 ~~~
 
-~~~admonish caution title="Recoverable Errors/Optional Data" id="recoverable-errors-and-optional-data"
+[//]: # (~~~admonish caution title="Recoverable Errors/Optional Data" id="recoverable-errors-and-optional-data")
 #### Player Counts {#missing-player-counts}
 If online players is null, nothing should be displayed.
 
@@ -77,7 +77,8 @@ Omitting the icon entirely is the suggested behavior.
 
 #### Multiline MOTDs {#error-multiline-motds}
 If the MOTD has multiple lines, everything after the first newline should be ignored.
-~~~
+
+[//]: # (~~~)
 
 ~~~admonish error title="Errors"
 - Not valid JSON

@@ -1,5 +1,6 @@
 ---
 nav:
+  - process.md
   - common/
   - Draft: draft/
 ---
@@ -8,5 +9,3 @@ nav:
 
 Welcome! This is the specification for **inertya**, a modular and 
 extensible client-server game networking protocol.
-
-

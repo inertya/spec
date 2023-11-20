@@ -6,6 +6,6 @@ The `inertya:key` [custom data type] is a [key].
 [key]: ../../keys.md
 
 
-### Codec
+## Codec
 
 See [Keys#codec](../../keys.md#codec).

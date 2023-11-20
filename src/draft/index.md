@@ -20,7 +20,8 @@ This will eventually become `pv1`, but it is unstable and unreleased.
 
 ## Tweaks
 Tweaks are small changes to the text of stable protocol versions to fix bugs,
-clarify language, correct spelling/grammar, and resolve ambiguity.
+clarify language, improve reader experience, add examples, correct 
+spelling/grammar, or resolve ambiguity.
 
 None yet.
 
