@@ -1,6 +1,7 @@
 ---
 nav:
   - common/
+  - Draft: draft/
 ---
 
 # Inertya Protocol Specification
