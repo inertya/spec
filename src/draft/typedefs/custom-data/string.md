@@ -13,7 +13,7 @@ The string type is encoded as a [uint32] length and then the raw bytes.
 
 [uint32]: uints.md
 
-### Errors
+### Errors { #codec-errors }
 
 - Invalid UTF-8
 - Length greater than 16,777,216

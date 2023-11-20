@@ -24,4 +24,4 @@ Signed integers are encoded with [two's complement].
 
 ### Errors { #codec-errors }
 
-None (all values are valid for these types)
+None (all values are valid for these types).

@@ -20,4 +20,4 @@ Integers are encoded little endian and full/fixed width.
 
 ### Errors { #codec-errors }
 
-None (all values are valid for these types)
+None (all values are valid for these types).
