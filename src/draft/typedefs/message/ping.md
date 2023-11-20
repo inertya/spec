@@ -1,4 +1,5 @@
-# `inertya:ping` &nbsp; <small>(Bi-Directional)</small>
+# `inertya:ping`
+> Direction: Bi-Directional
 
 Sent by the server every second to ensure connection liveness and calculate ping.
 The client should respond immediately.

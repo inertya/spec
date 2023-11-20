@@ -1,4 +1,5 @@
-# `inertya:hello` &nbsp; <small>(Bi-Directional)</small>
+# `inertya:hello`
+> Direction: Bi-Directional
 
 This is the first message sent on the connection after it is established.
 

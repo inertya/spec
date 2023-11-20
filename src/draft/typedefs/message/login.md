@@ -1,4 +1,5 @@
-# `inertya:login` &nbsp; <small>(Serverbound)</small>
+# `inertya:login`
+> Direction: Serverbound
 
 Sent by the client after the hellos to set its username.
 
