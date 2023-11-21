@@ -22,7 +22,6 @@ The following markdown extensions are used:
 - def list (html dl/dt/dd tags)
 - heading attributes (custom id/class)
 - caret superscript (`^sup^`)
-- tilde subscript (`~sub~`)
 - strikethrough (`~~del~~`)
 - tables
 

@@ -8,7 +8,7 @@ nav:
   - chat.md
   - Built-in Feature Types:
       - Custom Data Types: typedefs/custom-data/*
-      - Message Types: typedefs/messages/*
+      - Message Types: typedefs/message/*
 ---
 
 # Protocol Version 1 (Draft)

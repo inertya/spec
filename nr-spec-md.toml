@@ -1,0 +1,13 @@
+# This file contains the configuration for nr-spec-md, the build and validation tool used by inertya.
+# See https://github.com/inertya/nr-spec-md for more info.
+
+version = "0.1"
+
+[metadata]
+name = "Inertya Specification"
+description = "The Inertya Specification"
+copyright = "Licensed under <a href=\"/licensing\">CC-BY-SA-4.0</a>"
+
+[build]
+source = "src"
+output = "mkdocs"

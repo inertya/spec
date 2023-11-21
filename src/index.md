@@ -1,7 +1,7 @@
 ---
 nav:
   - process.md
-  - common/
+  - Common: common/
   - Draft: draft/
 ---
 
