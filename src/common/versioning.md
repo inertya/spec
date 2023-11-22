@@ -17,8 +17,8 @@ PVN
 : Protocol Version Number
 
 pv{x}
-: Protocol Version {x}.\
-  eg. `pv12` is protocol version 12.
+: Protocol Version {x}.  
+eg. pv12 is protocol version 12.
 
 pvTEST
 : The testing protocol version (`0xFFFFFFFF`)
@@ -32,6 +32,7 @@ pvTEST
 `0xFFFFFFFF` (pvTEST)
 : Used for testing, snapshots, and drafts. Not stable.
 
+[queries]: querying.md
 
 ### PV Ranges
 

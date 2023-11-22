@@ -1,6 +1,6 @@
 ---
 nav:
-  - model.md
+  - networking.md
   - versioning.md
   - querying.md
 ---

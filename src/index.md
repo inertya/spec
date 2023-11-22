@@ -1,6 +1,7 @@
 ---
+name: Home
 nav:
-  - process.md
+  - terminology.md
   - Common: common/
   - Draft: draft/
 ---
