@@ -21,7 +21,7 @@ pv{x}
 eg. pv12 is protocol version 12.
 
 pvTEST
-: The testing protocol version (`0xFFFFFFFF`)
+: The testing protocol version (`0xFFFFFFFF`).
 
 
 ### Special PVNs
