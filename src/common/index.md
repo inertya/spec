@@ -1,7 +1,7 @@
 ---
 nav:
-  - networking.md
   - versioning.md
+  - networking.md
   - querying.md
 ---
 
