@@ -1,3 +1,5 @@
 # Querying
 
-A *query* is the process of checking a server's protocol version and status.
+A *query* is the process of asking a server for its protocol version and status.
+
+
