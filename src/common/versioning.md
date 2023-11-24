@@ -34,8 +34,3 @@ pvTEST
 
 [queries]: querying.md
 
-### PV Ranges
-
-eg. pv1-3
-
-TODO
