@@ -1,6 +1,8 @@
 ---
 name: Home
 nav:
+  - licensing.md
+  - intro.md
   - terminology.md
   - Common: common/
   - Draft: draft/
