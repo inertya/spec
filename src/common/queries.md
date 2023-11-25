@@ -25,8 +25,8 @@ This is meant to prevent [memory exhaustion][wp-exhaustion-attack] attacks.
 All queries happen over TCP. See [networking] for more info.
 
 All queries are initiated by the client, by establishing a TCP connection to 
-the server that it wants to query. The client sends the [magic bytes] 
-(`0x4E52`), then the [query indicator] (`0x51`).
+the server that it wants to query. The client sends the [magic-bytes] 
+(`0x4E52`), then the [query-indicator] (`0x51`).
 
 The server responds with three things:
 - The current PVN (see [Versioning#codec][pvn-codec])
@@ -49,6 +49,6 @@ sequenceDiagram
 
 [wp-exhaustion-attack]: https://en.wikipedia.org/wiki/Resource_exhaustion_attack
 [networking]: networking.md
-[magic bytes]: networking.md#magic-bytes
-[query indicator]: networking.md#mode-indicators
+[magic-bytes]: networking.md#magic-bytes
+[query-indicator]: networking.md#mode-indicators
 [pvn-codec]: versioning.md#codec
