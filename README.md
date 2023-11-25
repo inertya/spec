@@ -24,6 +24,7 @@ The following markdown extensions are used:
 - caret superscript (`^sup^`)
 - strikethrough (`~~del~~`)
 - tables
+- mermaid.js graph rendering
 
 
 ## License

@@ -8,7 +8,8 @@ version.
 The protocol is versioned with a single number, the protocol version number.
 This number is an unsigned 32-bit/4-byte integer.
 
-For a full list of all released protocol versions, see the [changelog].
+For a full list of all released protocol versions, see the
+[version history](../versions.md).
 
 ### Terminology
 
@@ -30,5 +31,3 @@ pvTEST
 
 `0x00000000` - pvTEST
 : Used for testing, snapshots, and drafts. Not stable.
-
-[changelog]: ../changelog.md

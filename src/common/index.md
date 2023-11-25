@@ -2,7 +2,7 @@
 nav:
   - versioning.md
   - networking.md
-  - querying.md
+  - queries.md
 ---
 
 # Inertya Common Protocol
