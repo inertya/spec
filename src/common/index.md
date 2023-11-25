@@ -13,8 +13,6 @@ with breaking changes, and
 2. A [query][queries] system, to enable checking of the server's protocol 
 version (and other statuses).
 
-These 2 things
-
 Concepts in the common protocol are considered *protocol version independent*.
 
 The common protocol does not have breaking changes (minor additions may 
