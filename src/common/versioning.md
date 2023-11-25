@@ -11,7 +11,8 @@ This number is an unsigned 32-bit/4-byte integer.
 For a full list of all released protocol versions, see the
 [version history](../versions.md).
 
-### Terminology
+
+## Terminology
 
 PV
 : Protocol Version
@@ -27,9 +28,14 @@ pvTEST
 : The testing protocol version (`pvn = 0x00000000`).
 
 
-### Special PVNs
+## Special PVNs
 
 `0x00000000` - pvTEST
 : Used for testing, snapshots, and drafts. Not stable.  
 Note that the expression `pv0` is *invalid*, and the only way to refer to 
 this PV is by saying `pvTEST`.
+
+
+## Codec
+
+PVNs on the wire are always encoded as a 4-byte big endian integer.

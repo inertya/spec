@@ -30,7 +30,8 @@ the server that it wants to query. The client sends the [magic-bytes]
 
 The server responds with three things:
 - The current PVN (see [Versioning#codec][pvn-codec])
-- The length of the payload, as a 4 byte
+- The length of the payload, as a 4 byte big-endian integer
+  ([Max length](#maximum-payload-length)).
 
 
 ```mermaid
@@ -41,9 +42,9 @@ sequenceDiagram
     C->>+S: Magic Bytes<br>0x4E52
     C->>S: Query Indicator<br>0x51
     deactivate S
-    S->>+C: PVN<br>4 bytes BE
+    S->>+C: Server's PVN<br>4 bytes BE
     S->>C: Payload Len<br>4 bytes BE
-    S->>C: Raw Payload
+    S->>C: Raw Payload<br>Byte Stream
     deactivate C
 ```
 
