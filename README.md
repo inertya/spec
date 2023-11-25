@@ -15,6 +15,9 @@ specification, and then implement it in rust. feel free to have a look
 around, but i'm not exactly accepting contributions right now (when its done 
 and i get settled i will).
 
+if for some reason you do think this is interesting,
+feel free to add me on discord (`Sky9x`) and we can chat :)
+
 
 ## Markdown
 
@@ -29,5 +32,5 @@ The following markdown extensions are used:
 ## License
 
 This repository and all specifications are licensed under 
-[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 
+[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (NOT FINAL).
 The full license text is included in the [LICENSE](LICENSE) file.
