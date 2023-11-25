@@ -24,10 +24,12 @@ pv{x}
 eg. pv12 is protocol version 12.
 
 pvTEST
-: The testing protocol version (`0x00000000`).
+: The testing protocol version (`pvn = 0x00000000`).
 
 
 ### Special PVNs
 
 `0x00000000` - pvTEST
-: Used for testing, snapshots, and drafts. Not stable.
+: Used for testing, snapshots, and drafts. Not stable.  
+Note that the expression `pv0` is *invalid*, and the only way to refer to 
+this PV is by saying `pvTEST`.
