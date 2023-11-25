@@ -17,27 +17,30 @@ for more information.
 All queries happen over TCP. See [networking] for more info.
 
 All queries are initiated by the client, by establishing a TCP connection to 
-the server that it wants to query. The client then sends the query indicator,
-`51 4E 52` ("QNR" in ASCII).
+the server that it wants to query. The client sends the [magic bytes] 
+(`0x4E52`), then the [query indicator] (`0x51`).
 
 The server responds first with its 4 byte [PVN][pvn-codec] (big endian),
 then the
+
 
 ## Example
 
 ```mermaid
 sequenceDiagram
-    participant C as Client
+    participant  C as Client
     participant S as Server
 
-    Note right of C: TCP Connection Opened
-    C->>S: 51 4E 52
+    C->>+S: Magic Bytes<br>0x4E52
+    C->>S: Query Indicator<br>0x51
+    deactivate S
     S->>+C: PVN<br>4 bytes BE
     S->>C: Payload Len<br>4 bytes BE
     S->>C: Raw Payload
     deactivate C
-    Note left of S: TCP Connection Closed
 ```
 
 [networking]: networking.md
+[magic bytes]: networking.md#magic-bytes
+[query indicator]: networking.md#mode-indicators
 [pvn-codec]: versioning.md#codec
