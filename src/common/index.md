@@ -7,14 +7,19 @@ nav:
 
 # Inertya Common Protocol
 
-The inertya common protocol provides a ~~minimum stable interface~~, and 
-consists of two main things:
-1. A versioning system (Protocol Versions), to allow the protocol to evolve 
-with breaking changes
-2. A query system, to enable checking of the server's protocol version (and 
-other statuses).
+The inertya common protocol provides two main things:
+1. A [versioning] system (Protocol Versions), to allow the protocol to evolve 
+with breaking changes, and
+2. A [query][queries] system, to enable checking of the server's protocol 
+version (and other statuses).
+
+These 2 things
 
 Concepts in the common protocol are considered *protocol version independent*.
 
-The common protocol does not change, to ensure that all past, present, and 
-future protocol version can co-exist.
+The common protocol does not have breaking changes (minor additions may 
+happen, like the planned protocol version ranges), to ensure that all 
+protocol versions can co-exist.
+
+[versioning]: versioning.md
+[queries]: queries.md
